@@ -160,7 +160,9 @@ footer p.legal{color:#fff;text-align:center;}
     transition: all .3s ease-in-out 0s;
 }
 .btn:hover{
-    background:#feda9e;
+    background:#701300;
+    text-decoration:none;
+    color:#fff;
 }
 hr.gradient{
     border: 0;
@@ -429,12 +431,12 @@ hr.universalHR{
   position:relative;
 }
 .logo img{
-    position:absolute;
-    display:block;
-    width:98px;
-    height:64px;
-    top:calc(50% - 32px);
-    left:calc(50% - 49px);
+    position: absolute;
+    display: block;
+    width: 162px;
+    height: 106px;
+    top: calc(50% - 53px);
+    left: calc(50% - 81px);
 }
 .menu__item {
   -webkit-transform: translate3d(500px, 0, 0);
@@ -518,7 +520,10 @@ hr.universalHR{
     margin:0;
     display:block;
 }
-
+#contenedor-images .btn, #video-container .btn{
+  max-width:360px;
+  margin:10px auto 45px; 
+}
 #contenedor-images2{
   background:url(../images/store/store-bg.jpg)top center no-repeat;
   background-size:100%;

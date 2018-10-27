@@ -41,7 +41,7 @@
 			.embed-container iframe, .embed-container object, .embed-container embed{position:absolute;top:0;left:0;width:100%;height:100%;}
 		</style>
 		<div class='embed-container'><iframe src='https://www.youtube.com/embed/fzqMon685sY?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe></div>
-		<div class="clearfix" style="height:30px;"></div>
+		<div class="clearfix" style="height:15px;"></div>
 		<a href="https://www.youtube.com/channel/UCE0L4RcfgVr0WqJzXFGxHeQ" target="_blank" class="btn">Take a look at our YouTube channel</a>
 	</div>
 
