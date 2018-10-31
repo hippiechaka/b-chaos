@@ -9,7 +9,7 @@
 		<div id="sidebar-initial">
 			<h1 class="sr-only">B Chaos</h1>
 			<img src="images/bchaos-big.png" alt="B Chaos" class="animated fadeInUpBig" id="logo-big">
-			<p align="center" class="animated fadeIn"><a href="#music" class="animated infinite bounce" style="color:#fff !important;display:block;">scroll <i class="fas fa-chevron-circle-down"></i></a></p>
+			<!-- <p align="center" class="animated fadeIn"><a href="#music" class="animated infinite bounce" style="color:#fff !important;display:block;">scroll <i class="fas fa-chevron-circle-down"></i></a></p> -->
 		</div>
 		<div class="owl-carousel" id="slide-bchaos">
 		  <div class="item">
@@ -26,7 +26,7 @@
 	<div class="continer-fluid" id="music-container">
 		<div class="container">
 			<a id="music" name="music"></a>
-			<h2 class="text-white" style="text-align: center; margin: 2em auto;">Music</h2>
+			<h2 class="text-white subtitle" style="text-align: center; margin: 2em auto;">Music</h2>
 			<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/581277285&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 			<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/192685375&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 			<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/192685520&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
@@ -35,7 +35,7 @@
 
 	<div class="continer-fluid" id="video-container">
 		<a id="video" name="video"></a>
-		<h2 class="text-white" style="text-align: center; margin: 2em auto;">Video</h2>
+		<h2 class="text-white subtitle" style="text-align: center; margin: 2em auto;">Video</h2>
 		<style>
 			.embed-container{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;}
 			.embed-container iframe, .embed-container object, .embed-container embed{position:absolute;top:0;left:0;width:100%;height:100%;}
@@ -169,6 +169,7 @@
 	<div id="band-img" class="parallaxParent">
 		<div class="float-content animated fadeInUp">
 			<div class="container">
+				<h2 class="subtitle" style="text-align:center;margin: 0 auto;color:#fff;">Band</h2>
 				<div class="col-md-1"><!-- foo column --></div>
 				<div class="col-md-10">
 					<p><strong>B Chaos</strong> is a Groove Metal band formed in Guadalajara México in the 2012 year.</p> 
@@ -267,7 +268,7 @@
 				<div class="col-md-1"><!-- foo column --></div>
 				<div class="col-md-10">
 					<div class="clearfix" style="height:8vw;"></div>
-					<p style="text-transform:uppercase;color:#fff;font-size:36px;text-align:center;width:100%;font-weight:bold;" class="animated infinite pulse">bchaos.mx<i class="fas fa-at"></i>gmail.com</p>
+					<p style="color:#fff;font-size:36px;text-align:center;width:100%;font-weight:bold;">bchaos.mx<i class="fas fa-at"></i>gmail.com</p>
 				</div>
 				<div class="col-md-1"><!-- foo column --></div>
 			</div>
