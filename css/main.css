@@ -154,7 +154,7 @@ footer p.legal{color:#fff;text-align:center;}
 
 .btn{
     display:block;
-    padding:10px 30px;
+    padding:10px 30px; 
     text-align:center;
     font-size:18px;
     color:#fff;
@@ -211,7 +211,7 @@ hr.universalHR{
     filter: Alpha(Opacity=50);/*IE7 fix*/
     opacity: 0.5;
 }
-#tour-grid .owl-prev, .owl-next {
+#tour-grid .owl-prev, #tour-grid .owl-next {
   color:#000;
 }
 .owl-prev:hover, .owl-next:hover {
@@ -552,6 +552,7 @@ hr.universalHR{
 }
 @media screen and (max-width: 991px){
     #redesFooter {text-align:center;}
+    .grid figure {height: 180px;}
 }
 @media screen and (max-width: 767px){
 	.navbar-height{height:0px;}
@@ -560,6 +561,8 @@ hr.universalHR{
   #band-img .float-content{position:relative;height:auto;top:0;}
   #band-img img.img-responsive.hidden-lg{display:none;}
   #end-img{height:auto;}
+  .btn{white-space: pre-wrap;}
+  .grid figure {height: 140px;}
 }
 @media screen and (max-width: 600px){
 }
